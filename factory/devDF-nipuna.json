@@ -1,0 +1,9 @@
+{
+	"name": "devDF-nipuna",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bfb0ab83-82b6-4a49-bc6a-834a4f713715",
+		"tenantId": "a7d7aa19-6657-41bb-ac53-4f79a37f9681"
+	}
+}
