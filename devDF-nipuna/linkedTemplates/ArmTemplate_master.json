@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "devDF-nipuna"
 		},
+		"LS_source_dev_sqlsever_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'LS_source_dev_sqlsever'"
+		},
+		"LS_source_dev_sqlsever_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_source_dev_sqlsever'"
+		},
 		"ls_dev_nipuna_adlsgen2_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ls_dev_nipuna_adlsgen2'"
@@ -14,6 +22,10 @@
 		"ls_synapse_target_sqldw_nipuna_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_synapse_target_sqldw_nipuna'"
+		},
+		"LS_source_dev_sqlsever_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "molli666"
 		},
 		"ls_dev_nipuna_adlsgen2_properties_typeProperties_url": {
 			"type": "string",
@@ -52,8 +64,17 @@
 					"ls_synapse_target_sqldw_nipuna_connectionString": {
 						"value": "[parameters('ls_synapse_target_sqldw_nipuna_connectionString')]"
 					},
+					"LS_source_dev_sqlsever_connectionString": {
+						"value": "[parameters('LS_source_dev_sqlsever_connectionString')]"
+					},
+					"LS_source_dev_sqlsever_password": {
+						"value": "[parameters('LS_source_dev_sqlsever_password')]"
+					},
 					"ls_dev_nipuna_adlsgen2_properties_typeProperties_url": {
 						"value": "[parameters('ls_dev_nipuna_adlsgen2_properties_typeProperties_url')]"
+					},
+					"LS_source_dev_sqlsever_properties_typeProperties_userName": {
+						"value": "[parameters('LS_source_dev_sqlsever_properties_typeProperties_userName')]"
 					}
 				}
 			},

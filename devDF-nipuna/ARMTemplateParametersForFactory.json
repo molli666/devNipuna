@@ -5,11 +5,20 @@
 		"factoryName": {
 			"value": "devDF-nipuna"
 		},
+		"LS_source_dev_sqlsever_connectionString": {
+			"value": ""
+		},
+		"LS_source_dev_sqlsever_password": {
+			"value": ""
+		},
 		"ls_dev_nipuna_adlsgen2_accountKey": {
 			"value": ""
 		},
 		"ls_synapse_target_sqldw_nipuna_connectionString": {
 			"value": ""
+		},
+		"LS_source_dev_sqlsever_properties_typeProperties_userName": {
+			"value": "molli666"
 		},
 		"ls_dev_nipuna_adlsgen2_properties_typeProperties_url": {
 			"value": "https://adlsgen2devnipuna.dfs.core.windows.net/"
