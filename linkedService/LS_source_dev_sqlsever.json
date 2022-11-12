@@ -1,0 +1,17 @@
+{
+	"name": "LS_source_dev_sqlsever",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=(LocalDB)\\MSSQLLocalDB;initial catalog=demo",
+			"userName": "molli666",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2M2IyMmVlMS0zYTIxLTQ4MTMtYTVkYi05YzkwNDJkMjk1ZDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Selfthosted-IR-dev-nipuna",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
