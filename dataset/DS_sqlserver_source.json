@@ -1,0 +1,16 @@
+{
+	"name": "DS_sqlserver_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_source_dev_sqlsever",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "shyam"
+		}
+	}
+}
