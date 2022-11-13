@@ -14,10 +14,10 @@
 				"fileSystem": "source"
 			},
 			"columnDelimiter": ",",
-			"rowDelimiter": "",
-			"escapeChar": "\\",
+			"rowDelimiter": "\n",
+			"escapeChar": "\"",
 			"firstRowAsHeader": true,
-			"quoteChar": "'"
+			"quoteChar": "\""
 		},
 		"schema": [
 			{
