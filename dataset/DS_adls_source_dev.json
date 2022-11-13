@@ -14,6 +14,7 @@
 				"fileSystem": "source"
 			},
 			"columnDelimiter": ",",
+			"rowDelimiter": "",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "'"
