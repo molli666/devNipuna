@@ -14,10 +14,9 @@
 				"fileSystem": "source"
 			},
 			"columnDelimiter": ",",
-			"rowDelimiter": ",",
-			"escapeChar": "\"",
+			"escapeChar": "\\",
 			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"quoteChar": "'"
 		},
 		"schema": [
 			{
